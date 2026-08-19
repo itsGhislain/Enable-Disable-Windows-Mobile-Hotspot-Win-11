@@ -1,0 +1,37 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+; Windows Mobile Hotspot Enable
+; ============================================================
+; Purpose:
+;     Prevent users from accessing the Windows Mobile Hotspot
+;     interface on corporate endpoints.
+;
+; Security Objective:
+;     Reduce the risk of corporate network connectivity being
+;     shared with unauthorized/personal devices.
+;
+; Created by:
+;     GHISLΛIИ B
+;
+; Created on:
+;     August 19, 2026
+;
+; Change Type:
+;     Security Hardening
+;
+; Registry Path:
+;     HKLM\SOFTWARE\Policies\Microsoft\Windows\Network Connections
+;
+; Value Type:
+;     REG_DWORD
+;
+; Value:
+;     0
+;
+; Reference:
+;     https://github.com/itsGhislain/-Enable-Disable-Windows-Mobile-Hotspot-Win-11
+; ============================================================
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Network Connections]
+"NC_ShowSharedAccessUI"=dword:00000001
