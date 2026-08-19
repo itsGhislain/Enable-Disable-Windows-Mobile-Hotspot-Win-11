@@ -5,7 +5,7 @@ Windows Registry Editor Version 5.00
 ; ============================================================
 ; Purpose:
 ;     Prevent users from accessing the Windows Mobile Hotspot
-;     interface on corporate endpoints.
+;     interface on endpoints.
 ;
 ; Security Objective:
 ;     Reduce the risk of corporate network connectivity being
