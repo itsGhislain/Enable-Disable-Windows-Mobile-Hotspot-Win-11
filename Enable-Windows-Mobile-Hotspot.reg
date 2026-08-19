@@ -4,12 +4,8 @@ Windows Registry Editor Version 5.00
 ; Windows Mobile Hotspot Enable
 ; ============================================================
 ; Purpose:
-;     Prevent users from accessing the Windows Mobile Hotspot
-;     interface on corporate endpoints.
-;
-; Security Objective:
-;     Reduce the risk of corporate network connectivity being
-;     shared with unauthorized/personal devices.
+;     Enables the Windows Mobile Hotspot
+;     interface on endpoints.
 ;
 ; Created by:
 ;     GHISLΛIИ B
